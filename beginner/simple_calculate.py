@@ -1,0 +1,5 @@
+prod1 = raw_input()
+prod2 = raw_input()
+v1 = float(prod1.split(' ')[1]) * float(prod1.split(' ')[2])
+v2 = float(prod2.split(' ')[1]) * float(prod2.split(' ')[2])
+print "VALOR A PAGAR: R$ %s" % format(v1+v2,'.2f')  

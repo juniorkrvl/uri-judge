@@ -1,0 +1,1 @@
+print "DIFERENCA = %d" % ((input()*input()) - (input()*input()))

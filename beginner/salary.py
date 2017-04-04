@@ -1,0 +1,1 @@
+print "NUMBER = %d\nSALARY = U$ %s" % (input(), format((input()*input()),'.2f'))
